@@ -21,3 +21,13 @@ Basic regular expressions differ from extended regular expressions in the follow
 - If an unescaped `$` appears neither last, nor directly before `\|` or `\)`, it is treated like an ordinary character and is not an anchor.
 - If an unescaped `*` appears first, nor appears directly after `\(` or `\|` or anchoring `^`, it is treated like an ordinary character and is not repetion operation
   > Source: *https://www.gnu.org/software/grep/manual/html_node/Basic-vs-Extended.html*
+
+## Quantifers:
+|**Quantifer**|**Meaning**|**In BRE?**|**In ERE?**|
+|:---:|:---:|:---:|:---:|
+|`*`|zero or more|Yes|Yes|
+|`.`|any characters (not a quantifier, but used)|Yes|Yes|
+|`? `|zero or one|No|Yes|
+|`+`|one or more |No|Yes|
+|`{n}`, `{n,}`, `{n,m}`|exact/at least/between repetition|No|Yes|
+
