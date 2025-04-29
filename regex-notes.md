@@ -16,3 +16,8 @@
 # Basic vs Extended Regular Expressions
 Basic regular expressions differ from extended regular expressions in the following ways:
 - The character `?`, `+`, `{`, `|`, `(`, and `)` lose their special meaning; instead use the backslashed versions `\?`, `\+`, `\{`, `\|`, `\(`, and `\)`. Also, a backslash is needed before an interval expression's closing `}`.
+- An unmatched `\)` is invalid.
+- If an unescaped `^` appears neither first, nor directly after `\(` or `\|`, it is treated like an ordinary character and is not an anchor.
+- If an unescaped `$` appears neither last, nor directly before `\|` or `\)`, it is treated like an ordinary character and is not an anchor.
+- If an unescaped `*` appears first, nor appears directly after `\(` or `\|` or anchoring `^`, it is treated like an ordinary character and is not repetion operation
+  > Source: *https://www.gnu.org/software/grep/manual/html_node/Basic-vs-Extended.html*
