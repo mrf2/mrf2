@@ -3,7 +3,7 @@
 
 ## Hexadecimal to Binary to Decimal
 
-$$\begin{array}{c|c}
+$$\begin{array}{cc}
 9 & 7 \\
 \downarrow & \downarrow \\
 1001 & 0111
