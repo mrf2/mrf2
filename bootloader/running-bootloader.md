@@ -18,3 +18,5 @@ gdb
 (gdb) set architecture i8086
 (gdb) continue
 ```
+
+> To release mouse from **QEMU** press `Ctrl` **+** `Alt` **+** `G` keys
