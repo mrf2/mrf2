@@ -1,5 +1,7 @@
 ; boot.asm - simple bootloader that prints "Hello"
-org 0x7C00		; BIOS loads us here
+[BITS 16]
+[ORG 0x7C00]		; BIOS loads us here
+;org 0x7C00		; BIOS loads us here
 
 start:
 mov si, message
