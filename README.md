@@ -8,7 +8,6 @@ What you'll find here is not a showcase, but a reflection of what I'm learning, 
 
 ## 💡 Why This Exists
 
-I'm currently transitioning into the tech field from a different background.  
 Creating this portfolio is not about showing off — it’s about opening a door.  
 I’m doing this to find meaningful work and stable opportunities in areas I genuinely enjoy.
 
